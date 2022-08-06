@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Spear of DOOOOOOM resources",
+      "name": "Spear of DOOOOM",
+      "uuid":"91f6d32a-1822-4e2a-9b9e-b56924ced558",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 18, 0]
+     },
+    "modules": [
+      {
+        "description": "My First Add-On!",
+        "type": "resources",
+        "uuid": "4ae93e6a-8e07-451d-be5b-8c63c4178eaf",
+        "version": [1, 0, 0]
+      }
+    ]
+   }

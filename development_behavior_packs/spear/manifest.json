@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Spear of DOOOOM behavior pack Add-On!",
+      "name": "Spear of DOOOOOM",
+      "uuid":"2c0fd574-0a99-4dd1-8896-b28e7a60b173",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 18, 0]
+    },
+    "modules":
+      [
+        {
+          "description": "My First Add-On!",
+            "type": "data",
+            "uuid": "20a0143b-0250-4c64-ac16-b064aa750a7e",
+            "version": [1, 0, 0]
+        }
+      ],
+    "dependencies": [
+      {
+       "uuid":"91f6d32a-1822-4e2a-9b9e-b56924ced558",
+        "version":[1,0,0]
+      }
+   ]
+  }
