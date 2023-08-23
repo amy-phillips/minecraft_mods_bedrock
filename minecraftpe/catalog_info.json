@@ -92,5 +92,6 @@
          "fedbebdc-6cc1-4f05-9c6f-ab919d799af3" : null
       }
    },
-   "marketplace_next_content_fetch_time" : 1691676604
+   "marketplace_next_content_fetch_time" : 1692870222,
+   "marketplace_should_fetch_persona_content" : true
 }

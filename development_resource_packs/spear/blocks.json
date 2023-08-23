@@ -1,0 +1,16 @@
+{ 
+  "format_version": "1.19.30", 
+  "wiki:big_boom": { 
+    "textures": { 
+      "up": "big_boom", 
+      "down": "big_boom", 
+      "north": "big_boom", 
+      "south": "big_boom", 
+      "east": "big_boom", 
+      "west": "big_boom" 
+    }, 
+    "carried_textures": "big_boom", 
+    "brightness_gamma": 1, 
+    "sound": "stone" 
+     } 
+}

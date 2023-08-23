@@ -17,7 +17,7 @@ mp_xboxlive_visible:1
 mp_nex_visible:1
 mp_psn_visible:1
 game_language:
-game_skintypefull:5eb65f73-af11-448e-82aa-1b7b165316ad_persona-55ab56199526ce26-0
+game_skintypefull:c18e65aa-7b21-4637-9b63-8ad63622ef01_Alex
 game_lastcustomskinnew:Standard.Dummy
 game_recentskin1:
 game_recentskin2:
@@ -41,7 +41,7 @@ gfx_fancyskies:1
 gfx_field_of_view:110
 gfx_msaa:16
 gfx_texel_aa_2:0
-gfx_gamma:0.5
+gfx_gamma:1
 gfx_multithreaded_renderer:1
 gfx_vsync:1
 dev_file_watcher:1
