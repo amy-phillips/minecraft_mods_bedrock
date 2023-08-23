@@ -1,21 +1,27 @@
 {
    "Pending" : null,
-   "ProfileVersion" : 18,
+   "ProfileVersion" : 20,
    "Synchronized" : {
       "personaProfile" : {
          "personaCollection" : {
+            "plApps" : null,
+            "tlApps" : null,
+            "tplApps" : null,
             "universalApp" : [
                {
+                  "hasSeenPersonaClassicSkinDifferencesPrompt" : true,
                   "id" : "00000000-0000-0000-0000-000000000000_",
                   "isPlatformLocked" : false,
                   "isTitleLocked" : false,
                   "lastUsedPersonaSlot" : "persona_profile_persona3",
                   "packId" : "00000000-0000-0000-0000-000000000000",
+                  "stopShowingSkinChangePrompt" : false,
                   "typeId" : "skin"
                }
             ]
          },
-         "version" : "0.0.1"
+         "slotname" : "",
+         "version" : "0.1.0"
       },
       "personaProfile2" : {
          "personaCollection" : {
