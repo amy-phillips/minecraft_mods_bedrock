@@ -1,7 +1,7 @@
 mp_username:Steve
 mp_prev_app_name:Player
 game_difficulty_new:1
-game_thirdperson:0
+game_thirdperson:2
 ctrl_interactionModel:0
 gfx_dpadscale:0.5
 gfx_alwayshighlighthoveringboxincrosshair:1
@@ -17,7 +17,7 @@ mp_xboxlive_visible:1
 mp_nex_visible:1
 mp_psn_visible:1
 game_language:
-game_skintypefull:c18e65aa-7b21-4637-9b63-8ad63622ef01_Alex
+game_skintypefull:5eb65f73-af11-448e-82aa-1b7b165316ad_persona-55ab56199526ce26-0
 game_lastcustomskinnew:Standard.Dummy
 game_recentskin1:
 game_recentskin2:
@@ -48,7 +48,7 @@ dev_file_watcher:1
 gfx_max_framerate:0
 gfx_fullscreen:1
 show_advanced_video_settings:0
-gfx_guiscale_offset:0
+gfx_guiscale_offset:-1
 gfx_splitscreen_guiscale_offset:0
 gfx_safe_zone_x:1
 gfx_safe_zone_y:1
