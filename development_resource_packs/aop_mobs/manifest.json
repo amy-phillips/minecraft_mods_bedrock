@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "titans",
+    "description": "new endgame content",
+    "uuid": "64fcb5fb-1400-4cf1-97f3-582fd89bf2a6",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "description": "Add-on Pack Resources",
+      "type": "resources",
+      "uuid": "72848b1b-f365-4d10-aff4-e58f777247ea",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "7603ac0c-3421-46b7-90b5-0b7f19dabb97",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.13.1"
+      ]
+    }
+  }
+}

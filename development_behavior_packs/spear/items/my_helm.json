@@ -1,39 +1,40 @@
 {
-	"format_version": "1.19.0",
-	"minecraft:item": {
-		"description": {
-			"identifier": "wiki:my_helm",
-			"category": "equipment"
-		},
-		"components": {
-			// Helmet category
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.helmet"
-			},
-			"minecraft:icon": {
-				"texture": "my_helm"
-			},
-			"minecraft:display_name": {
-				"value": "My Custom Helmet"
-			},
-			"minecraft:max_stack_size": 1,
-			// Helm enchantment slot
-			"minecraft:enchantable": {
-				"value": 10,
-				"slot": "armor_head"
-			},
-			"minecraft:armor": {
-				"protection": 3
-			},
-			
-			// Wearable head slot
-			"minecraft:wearable": {
-				"dispensable": true,
-				"slot": "slot.armor.head"
-			},
-			"minecraft:durability": {
-				"max_durability": 200
-			}
-		}
-	}
+    "format_version": "1.21.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wiki:my_helm",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.helmet"
+            }
+        },
+        "components": {
+            "minecraft:icon": "my_helm",
+            "minecraft:display_name": {
+                "value": "Crimson Helmet"
+            },
+            "minecraft:max_stack_size": 1,
+            // Helm enchantment slot
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "armor_head"
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": ["minecraft:stick"],
+                        "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+                    }
+                ]
+            },
+            // Wearable head slot
+            "minecraft:wearable": {
+                "slot": "slot.armor.head",
+                "protection": 10
+            },
+            "minecraft:durability": {
+                "max_durability": 20000
+            }
+        }
+    }
 }

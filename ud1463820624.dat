@@ -1,46 +1,32 @@
 {
-   "Pending" : null,
-   "ProfileVersion" : 20,
+   "ProfileVersion" : 31,
    "Synchronized" : {
       "personaProfile" : {
+         "offlineUpdate" : false,
          "personaCollection" : {
-            "plApps" : null,
-            "tlApps" : null,
-            "tplApps" : null,
             "universalApp" : [
                {
                   "hasSeenPersonaClassicSkinDifferencesPrompt" : true,
-                  "id" : "00000000-0000-0000-0000-000000000000_",
+                  "id" : "c18e65aa-7b21-4637-9b63-8ad63622ef01_Steve",
                   "isPlatformLocked" : false,
                   "isTitleLocked" : false,
-                  "lastUsedPersonaSlot" : "persona_profile_persona3",
-                  "packId" : "00000000-0000-0000-0000-000000000000",
+                  "lastUsedPersonaSlot" : "persona_profile_persona5",
+                  "packId" : "c18e65aa-7b21-4637-9b63-8ad63622ef01",
                   "stopShowingSkinChangePrompt" : false,
                   "typeId" : "skin"
                }
             ]
          },
-         "slotname" : "",
          "version" : "0.1.0"
       },
-      "personaProfile2" : {
+      "personaProfile1" : {
+         "offlineUpdate" : false,
          "personaCollection" : {
             "universalApp" : [
                {
                   "arm" : "wide",
-                  "skcol" : "#b37b62",
-                  "skin" : false
-               }
-            ]
-         },
-         "version" : "0.0.1"
-      },
-      "personaProfile3" : {
-         "personaCollection" : {
-            "universalApp" : [
-               {
-                  "arm" : "slim",
-                  "skcol" : "#f2dbbd",
+                  "cs_arm" : "slim",
+                  "skcol" : "#ffb37b62",
                   "skin" : false
                },
                {
@@ -50,44 +36,169 @@
                   "id" : "1042557f-d1f9-44e3-ba78-f404e8fb7363/d"
                },
                {
-                  "id" : "0948e089-6f9c-40c1-886b-cd37add03f69/d"
-               },
-               {
-                  "id" : "96db6e5b-dc69-4ebc-bd36-cb1b08ffb0f4/d"
-               },
-               {
-                  "id" : "5f64b737-b88a-40ea-be1f-559840237146/d"
-               },
-               {
-                  "id" : "80eda582-cda7-4fce-9d6f-89a60f2448f1/d"
-               },
-               {
-                  "col" : [ "#0", "#0", "#efbbb1", "#0" ],
-                  "id" : "83c940ce-d7b8-4603-8d73-c1234e322cce/d"
-               },
-               {
-                  "col" : [ "#236224", "#0", "#0", "#0" ],
+                  "col" : [ "#ff523d89", "#ff2e180e", "#ffe9ecec", "#0" ],
                   "id" : "a0f263b3-e093-4c85-aadb-3759417898ff/d"
                },
                {
-                  "col" : [ "#e89d4c", "#0", "#0", "#0" ],
-                  "id" : "70be0801-a93f-4ce0-8e3f-7fdeac1e03b9/d"
+                  "id" : "f1e4c577-19ba-4d77-9222-47f145857f78/d"
+               },
+               {
+                  "id" : "49f93789-a512-4c47-95cb-0606cdc1c2be/d"
+               },
+               {
+                  "id" : "68bfe60d-f30a-422f-b32c-72374ebdd057/d"
+               },
+               {
+                  "id" : "97e3e925-6eef-a6db-8235-1f73f8a550fb/d"
+               },
+               {
+                  "col" : [ "#ff45220e", "#0", "#ff45220e", "#0" ],
+                  "id" : "2e4341c3-c014-4114-94b5-73968230aaaf/d"
                }
             ]
          },
-         "version" : "0.0.1"
+         "version" : "0.1.0"
       },
-      "personaProfile4" : {
+      "personaProfile2" : {
+         "offlineUpdate" : false,
          "personaCollection" : {
             "universalApp" : [
                {
-                  "arm" : "slim",
-                  "skcol" : "#f2dbbd",
+                  "arm" : "wide",
+                  "cs_arm" : "slim",
+                  "skcol" : "#b37b62",
                   "skin" : false
                }
             ]
          },
-         "version" : "0.0.1"
+         "version" : "0.1.0"
+      },
+      "personaProfile3" : {
+         "offlineUpdate" : false,
+         "personaCollection" : {
+            "universalApp" : [
+               {
+                  "arm" : "slim",
+                  "cs_arm" : "slim",
+                  "skcol" : "#f2dbbd",
+                  "skin" : false
+               },
+               {
+                  "id" : "83c940ce-d7b8-4603-8d73-c1234e322cce/d"
+               },
+               {
+                  "id" : "a0f263b3-e093-4c85-aadb-3759417898ff/d"
+               },
+               {
+                  "id" : "69422c5a-60b1-25eb-cfdd-a45626416758/d"
+               },
+               {
+                  "id" : "bb0321e0-9712-e35a-52cc-f3c83e0065f4/d"
+               },
+               {
+                  "id" : "49f93789-a512-4c47-95cb-0606cdc1c2be/d"
+               },
+               {
+                  "id" : "d3777d81-8b2b-d348-daed-710c15805976/d"
+               },
+               {
+                  "id" : "7e554f56-5f37-4340-b9ad-d616dfcf4bb4/f"
+               },
+               {
+                  "col" : [ "#ffa12722", "#0", "#0", "#0" ],
+                  "id" : "36f3af09-1871-f074-148a-9f748ba3ca42/d"
+               },
+               {
+                  "id" : "98ec3d94-064e-493f-b251-04761563c5a8/d"
+               },
+               {
+                  "id" : "05539998-c08b-408f-9211-4f42fd8bebc1/d"
+               },
+               {
+                  "id" : "f37a3fc7-0d3e-4b87-a786-f85c89ba95ac/f"
+               }
+            ]
+         },
+         "version" : "0.1.0"
+      },
+      "personaProfile4" : {
+         "offlineUpdate" : false,
+         "personaCollection" : {
+            "universalApp" : [
+               {
+                  "arm" : "wide",
+                  "cs_arm" : "slim",
+                  "skcol" : "#0",
+                  "skin" : false
+               }
+            ]
+         },
+         "version" : "0.1.0"
+      },
+      "personaProfile5" : {
+         "offlineUpdate" : false,
+         "personaCollection" : {
+            "universalApp" : [
+               {
+                  "arm" : "slim",
+                  "cs_arm" : "slim",
+                  "skcol" : "#ffb37b62",
+                  "skin" : false
+               },
+               {
+                  "id" : "b6702f0e-a4b5-497a-8820-6c8e3946bb55/d"
+               },
+               {
+                  "id" : "49f93789-a512-4c47-95cb-0606cdc1c2be/d"
+               },
+               {
+                  "id" : "c3ea4527-e2d7-4aae-86a4-0bb3d1b98d84/d"
+               },
+               {
+                  "id" : "142782c6-93bb-4e5a-af32-df6cd4164dca/d"
+               },
+               {
+                  "id" : "b697327b-42f3-640b-f705-ad23ce5e4905"
+               },
+               {
+                  "id" : "ee2184b4-127b-4209-bc0b-e99022f8157b/f"
+               },
+               {
+                  "id" : "e4349082-ad91-4066-b9b4-fa859a3bae4c"
+               },
+               {
+                  "id" : "b3377d2f-4667-41b1-ba2e-2bafbe3cae50/f"
+               },
+               {
+                  "id" : "648c08dc-8187-f1ea-d01f-2715a6769574/f"
+               },
+               {
+                  "id" : "5fb957e4-b4d9-e603-a5e8-9d0d279ff70d/f"
+               },
+               {
+                  "id" : "89e1a31d-9ea4-e7ee-e2cc-a1a1716baa2b/f"
+               },
+               {
+                  "id" : "38d80051-c961-4cb9-aad9-06768bfc09c6/f"
+               },
+               {
+                  "id" : "e6d956af-de69-4d69-a51f-6aaabf7b9d75/f"
+               },
+               {
+                  "id" : "db005e8e-57b4-4655-9e59-406766ba8dc0/f"
+               },
+               {
+                  "id" : "395c99fb-35c0-493f-8895-62563a02f55c/f"
+               },
+               {
+                  "id" : "9435b3a0-a782-4c5d-9c42-91579fba5ac0/f"
+               },
+               {
+                  "id" : "22c2b590-a50f-4c85-8039-aed983619a4b/f"
+               }
+            ]
+         },
+         "version" : "0.1.0"
       }
    }
 }

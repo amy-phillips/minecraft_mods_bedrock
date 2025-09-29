@@ -1,8 +1,14 @@
 {
    "" : {
-      "last_fetched_personaOffer" : "2022-08-05",
+      "last_fetched_personaOffer" : "2024-02-25",
       "last_fetched_storeOffer" : "2022-08-05",
+      "last_viewed_default_cast_version" : 1,
       "newProductInfoList" : {}
+   },
+   "2535408360401735" : {
+      "last_viewed_default_cast_version" : 1,
+      "newProductInfoList" : {},
+      "recentlyViewedProductIds" : [ "ItemDetail_0cabea38-43de-4895-ac9b-4fe91dab6efa" ]
    },
    "2784591733906284" : {
       "last_fetched_personaOffer" : "2023-04-11",
@@ -41,12 +47,6 @@
          "5851f9a2-816a-4668-bcd5-2ebb2e2187d2" : null,
          "5a4ade3f-ca61-4a71-8742-97a2c0b7185d" : null,
          "5b3c0e33-1bc5-4f5d-a93e-593bca81e565" : null,
-         "5b6d5134-d7f5-4e17-bc3c-89f3b0432fa1" : {
-            "days_before_reminding" : 0,
-            "last_date_shown_toast" : 1692871390,
-            "max_number_of_times_to_show" : 0,
-            "times_shown_toast" : 1
-         },
          "62194aa0-e67d-4266-8836-d2117044e269" : null,
          "632cd712-a60b-45bd-b0b5-a32bb387edd0" : null,
          "65fe9b48-09fd-4da2-aa72-c097a4c6ff4f" : null,
@@ -99,6 +99,6 @@
          "fedbebdc-6cc1-4f05-9c6f-ab919d799af3" : null
       }
    },
-   "marketplace_next_content_fetch_time" : 1692957789,
+   "marketplace_next_content_fetch_time" : 1757174871,
    "marketplace_should_fetch_persona_content" : true
 }

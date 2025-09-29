@@ -1,40 +1,41 @@
 {
-	"format_version": "1.19.0",
-	"minecraft:item": {
-		"description": {
-			"identifier": "wiki:my_leggings",
-			"category": "equipment"
-		},
-		"components": {
-			// We give it the leggings category this time
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.leggings"
-			},
-			// Give it an applicable ITEM texture
-			"minecraft:icon": {
-				"texture": "my_leggings"
-			},
-			"minecraft:display_name": {
-				"value": "My Custom Leggings"
-			},
-			"minecraft:max_stack_size": 1,
-			// Make sure the enchantments are for legs
-			"minecraft:enchantable": {
-				"value": 10,
-				"slot": "armor_legs"
-			},
-			"minecraft:armor": {
-				"protection": 100
-			},
-			
-			// Make sure the wearable slot is legs
-			"minecraft:wearable": {
-				"dispensable": true,
-				"slot": "slot.armor.legs"
-			},
-			"minecraft:durability": {
-				"max_durability": 200
-			}
-		}
-	}
+    "format_version": "1.21.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wiki:my_leggings",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.leggings"
+            }
+        },
+        "components": {
+            // Give it an applicable ITEM texture
+            "minecraft:icon": "my_leggings",
+            "minecraft:display_name": {
+                "value": "Crimson Leggings"
+            },
+            "minecraft:max_stack_size": 1,
+            // Make sure the enchantments are for legs
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "armor_legs"
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": ["minecraft:stick"],
+                        "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+                    }
+                ]
+            },
+            // Make sure the wearable slot is legs
+            "minecraft:wearable": {
+                "slot": "slot.armor.legs",
+                "protection": 16
+            },
+            "minecraft:durability": {
+                "max_durability": 20000
+            }
+        }
+    }
 }

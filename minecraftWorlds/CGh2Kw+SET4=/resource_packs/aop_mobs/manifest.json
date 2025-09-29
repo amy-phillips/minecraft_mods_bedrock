@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "titan",
+    "description": "post wither",
+    "uuid": "c73a718e-2a64-4f08-af1e-61d43d1eb9d7",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "description": "Add-on Pack Resources",
+      "type": "resources",
+      "uuid": "4e3c571e-7b0e-4ae4-ae7a-13b8945cfc2b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "d740f1fe-2c79-4b5e-8202-226eeadd3ef8",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.13.1"
+      ]
+    }
+  }
+}

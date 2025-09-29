@@ -6,59 +6,16 @@
       },
   
       "components": {
-        "minecraft:use_duration": 32,
+        "minecraft:use_duration": 10,
         "minecraft:food": {
-          "nutrition": 10,
+          "nutrition": 2,
           "saturation_modifier": "normal",
-          "using_converts_to" : "minecraft:milk_bucket",
           "can_always_eat" : true,
           "effects": [
             {
-              "name": "regeneration",
-              "chance": 1.0,
+              "name": "weakness",
+              "chance": 0.85,
               "duration": 30,
-              "amplifier": 255
-            },
-            {
-                "name": "haste",
-                "chance": 1.0,
-                "duration": 300,
-                "amplifier": 255
-            },
-            {
-                "name": "jump_boost",
-                "chance": 1.0,
-                "duration": 300,
-                "amplifier": 25
-            },
-            {
-                "name": "speed",
-                "chance": 1.0,
-                "duration": 300,
-                "amplifier": 255
-              },
-            {
-              "name": "health_boost",
-              "chance": 1.0,
-              "duration": 120, // 2 * 60
-              "amplifier": 255
-            },
-            {
-                "name": "instant_health",
-                "chance": 1.0,
-                "duration": 0, // 2 * 60
-                "amplifier": 255
-              },
-            {
-              "name": "resistance", // damage resistance
-              "chance": 1.0,
-              "duration": 300,
-              "amplifier": 0
-            },
-            {
-              "name": "fire_resistance",
-              "chance": 1.0,
-              "duration": 300,
               "amplifier": 0
             }
           ]

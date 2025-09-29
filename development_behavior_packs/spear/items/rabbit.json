@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+      "description": {
+        "identifier": "minecraft:rabbit"
+      },
+  
+      "components": {
+        "minecraft:use_duration": 10,
+        "minecraft:food": {
+          "nutrition": 2,
+          "saturation_modifier": "normal",
+          "can_always_eat" : true,
+          "effects": [
+            {
+              "name": "weakness",
+              "chance": 0.95,
+              "duration": 80,
+              "amplifier": 2
+            }
+          ]
+        }
+      }
+    }
+  }

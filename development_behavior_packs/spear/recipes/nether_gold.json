@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wiki:nether_gold"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["aba", "beb", "aba"],
+		"key": {
+			"b": {
+				"item": "minecraft:blaze_powder"
+			},
+			"a": {
+				"item": "minecraft:magma_cream"
+			},
+			"e": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"result": {
+			"item": "wiki:nether_gold"
+		}
+	}
+}

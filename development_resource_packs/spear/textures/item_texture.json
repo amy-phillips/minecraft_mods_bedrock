@@ -16,6 +16,28 @@
 		},
 		"my_boots": {
 			"textures": "textures/models/armor/custom_boots"
-		}
+		},
+		"my_sword": {
+            // Make sure you have put an icon texture called my_sword.png here
+            "textures": "textures/items/my_sword"
+        },
+		"Diamond_Hammer": {
+            // Make sure you have put an icon texture called my_sword.png here
+            "textures": "textures/items/Diamond_Hammer"
+        },
+		"my_dagger": {
+            // Make sure you have put an icon texture called my_sword.png here
+            "textures": "textures/items/my_dagger"
+        },
+		"rainbow_sword": {
+            // Make sure you have put an icon texture called my_sword.png here
+            "textures": "textures/items/rainbow_sword"
+        },
+		"nether_gold": {
+            // Make sure you have put an icon texture called my_sword.png here
+            "textures": "textures/items/fire_gold"
+        }
+
+
 	}
 }

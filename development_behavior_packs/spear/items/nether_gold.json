@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wiki:nether_gold",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 64,
+            
+            // This texture is used for both inventory and the hand model
+            "minecraft:icon": "nether_gold",
+            "minecraft:display_name": {
+                "value": "Nether Gold"
+            }
+           
+        }
+    }
+}

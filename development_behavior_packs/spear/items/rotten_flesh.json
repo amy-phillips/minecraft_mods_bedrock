@@ -6,16 +6,16 @@
       },
   
       "components": {
-        "minecraft:use_duration": 32,
+        "minecraft:use_duration": 10,
         "minecraft:food": {
           "nutrition": 0,
           "saturation_modifier": "normal",
           "effects": [
             {
               "name": "hunger",
-              "chance": 1.0,
-              "duration": 30000,
-              "amplifier": 255
+              "chance": 0.95,
+              "duration": 30,
+              "amplifier": 1
             }
           ]
         }

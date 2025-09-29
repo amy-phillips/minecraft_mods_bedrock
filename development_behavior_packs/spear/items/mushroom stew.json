@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+      "description": {
+        "identifier": "minecraft:mushroom_stew"
+      },
+  
+      "components": {
+        "minecraft:use_duration": 120,
+        "minecraft:food": {
+          "nutrition": 0,
+          "saturation_modifier": "normal",
+          "can_always_eat" : true,
+          "effects": [
+            {
+              "name": "resistance",
+              "chance": 1,
+              "duration": 300,
+              "amplifier": 0
+            }
+          ]
+        }
+      }
+    }
+  }

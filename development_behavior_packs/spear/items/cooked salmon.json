@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+      "description": {
+        "identifier": "minecraft:cooked_salmon"
+      },
+  
+      "components": {
+        "minecraft:use_duration": 10,
+        "minecraft:food": {
+          "nutrition": 2,
+          "saturation_modifier": "normal",
+          "can_always_eat" : true,
+          "effects": [
+            {
+              "name": "strength",
+              "chance": 0.90,
+              "duration": 300,
+              "amplifier": 0
+            }
+          ]
+        }
+      }
+    }
+  }

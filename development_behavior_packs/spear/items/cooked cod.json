@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+      "description": {
+        "identifier": "minecraft:cooked_cod"
+      },
+  
+      "components": {
+        "minecraft:use_duration": 10,
+        "minecraft:food": {
+          "nutrition": 4,
+          "saturation_modifier": "normal",
+          "can_always_eat" : true,
+          "effects": [
+            {
+              "name": "speed",
+              "chance": 0.85,
+              "duration": 70,
+              "amplifier": 0
+            }
+          ]
+        }
+      }
+    }
+  }

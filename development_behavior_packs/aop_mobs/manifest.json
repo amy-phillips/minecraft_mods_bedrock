@@ -1,0 +1,75 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "titans",
+    "description": "new endgame content",
+    "uuid": "7603ac0c-3421-46b7-90b5-0b7f19dabb97",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "uuid": "6ba3de86-1ae6-49b5-bccc-4bc31d981577",
+      "type": "data"
+    },
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "02a3a285-a75d-4deb-9fde-cf60ee965db0",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "64fcb5fb-1400-4cf1-97f3-582fd89bf2a6",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.13.1"
+      ]
+    }
+  }
+}

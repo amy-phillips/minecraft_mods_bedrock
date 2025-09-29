@@ -1,0 +1,75 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "titan",
+    "description": "post wither",
+    "uuid": "d740f1fe-2c79-4b5e-8202-226eeadd3ef8",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "uuid": "a5684856-c5e6-4c3c-8aed-d39a3050e529",
+      "type": "data"
+    },
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "2a402aab-61ab-4e4f-b041-2e6fabfa5afd",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c73a718e-2a64-4f08-af1e-61d43d1eb9d7",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.13.1"
+      ]
+    }
+  }
+}

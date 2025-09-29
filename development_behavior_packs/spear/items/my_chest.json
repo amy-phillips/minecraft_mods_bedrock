@@ -1,44 +1,47 @@
 {
-	"format_version": "1.19.0",
-	"minecraft:item": {
-		"description": {
-			"identifier": "wiki:my_chest",
-			// Notice we give it the equipment category
-			"category": "equipment"
-		},
-		"components": {
-			// Make sure it appears within the chestplate category
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.chestplate"
-			},
-			// The icon we want to use in our INVENTORY
-			"minecraft:icon": {
-				"texture": "my_chest"
-			},
-			// We give it a name
-			"minecraft:display_name": {
-				"value": "My Custom Armor"
-			},
-			// We dont want it to stack
-			"minecraft:max_stack_size": 1,
-			// We make sure it can only receive enchantments for chest pieces
-			"minecraft:enchantable": {
-				"value": 10,
-				"slot": "armor_torso"
-			},
-			// This tells it how much protection it should give
-			"minecraft:armor": {
-				"protection": 120
-			},
-			// Mark it as a wearable and that it goes in the chest slot
-			"minecraft:wearable": {
-				"dispensable": true,
-				"slot": "slot.armor.chest"
-			},
-			// Provide its durability
-			"minecraft:durability": {
-				"max_durability": 200
-			}
-		}
-	}
+    "format_version": "1.21.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wiki:my_chest",
+            // Notice we give it the equipment category
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.chestplate"
+            }
+        },
+        "components": {
+            // The icon we want to use in our INVENTORY
+            "minecraft:icon": "my_chest",
+            // We give it a name
+            "minecraft:display_name": {
+                "value": "Crimson Chestplate"
+            },
+            // We don't want it to stack
+            "minecraft:max_stack_size": 1,
+            // We make sure it can only receive enchantments for chest pieces
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "armor_torso"
+            },
+            // We want it to be repairable, and what to use to repair it
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": ["minecraft:stick"],
+                        "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+                        // Some complicated molang; just copy it
+                    }
+                ]
+            },
+            // Mark it as a wearable and that it goes in the chest slot
+            "minecraft:wearable": {
+                "slot": "slot.armor.chest",
+                "protection": 20
+            },
+            // Provide its durability
+            "minecraft:durability": {
+                "max_durability": 20000
+            }
+        }
+    }
 }

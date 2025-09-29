@@ -1,0 +1,14 @@
+{
+  "packs": [
+    {
+      "uuid": "50aedef0-d1f4-467a-84f1-57e267996650",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "name": "aop_mobs",
+      "can_be_redownloaded": false
+    }
+  ]
+}

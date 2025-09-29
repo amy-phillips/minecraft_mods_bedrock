@@ -6,13 +6,16 @@
 		},
 		"tags": ["crafting_table"],
 		"pattern": [
-			"# #", 
+			"#e#", 
 			"###", 
 			"###"]
 			,
 		"key": {
 			"#": {
-				"item": "minecraft:stick"
+				"item": "wiki:nether_gold"
+			},
+			"e": {
+				"item": "minecraft:diamond_chestplate"
 			}
 		},
 		"result": {

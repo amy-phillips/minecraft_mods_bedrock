@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+      "description": {
+        "identifier": "minecraft:bread"
+      },
+  
+      "components": {
+        "minecraft:use_duration": 40,
+        "minecraft:food": {
+          "nutrition": 6,
+          "saturation_modifier": "normal",
+          "can_always_eat" : true,
+          "effects": [
+            {
+              "name": "slowness",
+              "chance": 0.95,
+              "duration": 60,
+              "amplifier": 0
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "myzombie",
+    "description": "Zombie",
+    "uuid": "86a24386-5bc7-4147-b00b-a0bbd37f7c92",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "description": "Add-on Pack Resources",
+      "type": "resources",
+      "uuid": "333f46ac-0865-480d-a86f-ca2a8c0cedac",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "50aedef0-d1f4-467a-84f1-57e267996650",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.13.0"
+      ]
+    }
+  }
+}
